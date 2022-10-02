@@ -71,11 +71,11 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 - Balanced Accuracy: 0.925427358175101
 - Precision: The precision is 0.07 for High-risk loans and 1.00 for Low-risk loans.
-- Recall: High & Low risk = 0.92 and 0.94 respectively
+- Recall: High & Low risk = 0.91 and 0.94 respectively
 - F1 scores for High & Low risk: 0.14 and 0.97 respectively
 
 ### Summary and Recommendation: 
 
-After testing all the algorithms, it looks like all the models have very poor precision scores for High-Risk loans and scored high precision (1.00) on predicting Low-Risk loans which is not ideal. This is not helpful because in order for a model to be effective it should be able to predict well against bad decisions when faced with new data. Althought the High-Risk data is less frequent than the Low-Risk data based on the confusion matrix, it might be a good idea to collect more data on High-Risk and test to see if this will help boost the precision score. To determine how effective a model is, the recall scores are what will help to make this decision. The Easy Ensemble Classifier has the best recall scores of 92% and 94% for High-Risk and Low-Risk, respectively when compared to the rest of the models.
+After testing all the algorithms, it looks like all the models have very poor precision scores for High-Risk loans and scored high precision (1.00) on predicting Low-Risk loans which is not ideal. This is not helpful because in order for a model to be effective it should be able to predict well against bad decisions when faced with new data. Althought the High-Risk data is less frequent than the Low-Risk data based on the confusion matrix, it might be a good idea to collect more data on High-Risk and test to see if this will help boost the precision score. To determine how effective a model is, the recall scores are what will help to make this decision. The Easy Ensemble Classifier has the best recall scores of 91% and 94% for High-Risk and Low-Risk, respectively when compared to the rest of the models.
 
 I would recommend the usage of the Easy Ensemble Classifier because is a good algorithm to identify High-Risk loans. The Easy Ensemble Classifier shows a high accuracy score with a very good high-risk recall score, which means that this model would be the most effective at predicting which loans are at risk of any negative consequences for the company such as non-repayment, loans going to collection, etc. The recall score for the High-Risk loans is the most important piece when determing which model to use.

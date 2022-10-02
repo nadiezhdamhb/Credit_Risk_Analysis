@@ -17,7 +17,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Naive Random Oversampling
 
-![image](https://user-images.githubusercontent.com/103073631/183362801-5d88c43d-6ec7-44be-9696-2d7e0e14b620.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Naive_random_model.png)
 
 - Balanced Accuracy: 0.6249984891886339
 - Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
@@ -26,7 +26,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### SMOTE Oversampling
 
-![image](https://user-images.githubusercontent.com/103073631/183365147-963fa779-7e98-48a2-b820-a76eb3e8f1f8.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Smote_model.png)
 
 - Balanced Accuracy: 0.6512584051472337
 - Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
@@ -35,7 +35,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Undersampling
 
-![image](https://user-images.githubusercontent.com/103073631/183366077-2af70e0e-e1cd-4354-8039-f48b2c3e3dd3.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Undersampling_model.png)
 
 - Balanced Accuracy: 0.5107398543980726
 - Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
@@ -46,7 +46,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Combination Under-Over Sampling using the SMOTEENN algorithm
 
-![image](https://user-images.githubusercontent.com/103073631/183366304-cf2f8416-0fde-4036-9788-8f5c177ac8b6.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Smoteen_algorithm.png)
 
 - Balanced Accuracy: 0.6163546337591808
 - Precision: The precision is 0.01 for High-risk loans and 1.00 for Low-risk loans.
@@ -58,7 +58,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Balanced Random Forest Classifier
 
-![image](https://user-images.githubusercontent.com/103073631/183366715-d49d1669-6dd0-4de7-83fc-2fcd9fe0411f.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Balanced_random_forest.png)
 
 - Balanced Accuracy: 0.7877672625306695
 - Precision: The precision is 0.04 for High-risk loans and 1.00 for Low-risk loans.
@@ -67,7 +67,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 #### Easy Ensemble AdaBoost Classifier
 
-![image](https://user-images.githubusercontent.com/103073631/183366894-3283abd5-28a0-458e-ac7c-9d323f8a31a3.png)
+![image](https://github.com/nadiezhdamhb/Credit_Risk_Analysis/blob/main/Resources/Easy%20Ensemble%20AdaBoosting.png)
 
 - Balanced Accuracy: 0.925427358175101
 - Precision: The precision is 0.07 for High-risk loans and 1.00 for Low-risk loans.
